@@ -33,23 +33,41 @@
     <aside class="d-flex">
       <div class="top">
 
-        <img src="assets/img/logo.svg" alt="Spotify Logo" title="Spotify Logo">
+        <img class="d-none" src="assets/img/logo.svg" alt="Spotify Logo" title="Spotify Logo">
+        <img class="mobile" src="assets/img/logo-small.svg" alt="Spotify Logo" title="Spotify Logo">
 
         <nav>
           <ul>
-            <li><a href="#"><img src="assets/img/home.svg" alt="">link</a></li>
-            <li><a href="#"><img src="assets/img/search.svg" alt="">link</a></li>
-            <li><a href="#"><img src="assets/img/libreria.svg" alt="">link</a></li>
+            <li>
+              <a href="#">
+                <img src="assets/img/home.svg" alt="">
+                <span class="d-none">link</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="assets/img/search.svg" alt="">
+                <span class="d-none">link</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="assets/img/libreria.svg" alt="">
+                <span class="d-none">link</span>
+              </a>
+            </li>
           </ul>
           
         </nav>
 
-        <div class="playlists">
+        <div class="playlists d-none">
           <h3>Playlist</h3>
           <a href="#"><i class="fa-sharp fa-solid fa-square-plus"></i> Crea Playlist</a>
         </div>
 
-        <nav>
+        <nav class="d-none">
           <ul>
             <li>Nome Playlist</li>
             <li>Nome Playlist</li>
@@ -62,12 +80,17 @@
         </nav>
       </div>
 
-      <div class="bottom">
-        <a href="#"><img src="assets/img/download.svg" alt=""> Installa app</a>
-        <div class="horizontal-line"></div>
+      <div class="bottom d-flex">
+        <a href="#">
+          <img src="assets/img/download.svg" alt="">
+          <span class="d-none">Installa app</span>
+        </a>
+
+        <div class="horizontal-line d-none"></div>
+
         <div class="profile d-flex">
           <img src="assets/img/profile.svg" alt="">
-          <span>John Doe</span>
+          <span class="d-none">John Doe</span>
         </div>
       </div>
     </aside>

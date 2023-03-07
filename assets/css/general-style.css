@@ -33,6 +33,10 @@ body{
   border: 1px solid black;
 }
 
+.mobile{
+  display: none;
+}
+
 .btn{
   height: 40px;
   padding: 10px 30px;

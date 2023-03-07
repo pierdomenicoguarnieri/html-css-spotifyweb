@@ -38,6 +38,10 @@ aside .top h3{
   color: white;
 }
 
+aside .bottom{
+  flex-direction: column;
+}
+
 aside .bottom a{
   line-height: 20px;
   font-size: 14px;
@@ -57,6 +61,7 @@ aside .bottom a > img{
 aside .horizontal-line{
   border-bottom: 1px solid var(--sidebar-grey-text);
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 aside .profile{
