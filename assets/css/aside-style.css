@@ -1,8 +1,79 @@
 aside{
+  flex-direction: column;
+  justify-content: space-between;
   width: 250px;
   height: calc(100vh - 70px);
   position: fixed;
   top: 0;
   left: 0;
   background-color: var(--sidebar-backgroud-color);
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+aside .top > img{
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+aside .top nav ul li{
+  padding: 5px 0;
+  list-style: none;
+  color: var(--sidebar-grey-text);
+}
+
+aside .top nav li a{
+  color: var(--sidebar-grey-text);
+  text-decoration: none;
+  line-height: 30px;
+}
+
+aside .top nav li a img{
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+aside .top h3{
+  color: white;
+}
+
+aside .bottom a{
+  line-height: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--sidebar-grey-text);
+  margin-bottom: 10px;
+}
+
+aside .bottom a > img{
+  width: 18px;
+  line-height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+aside .horizontal-line{
+  border-bottom: 1px solid var(--sidebar-grey-text);
+  margin-bottom: 10px;
+}
+
+aside .profile{
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+aside .profile img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--sidebar-grey-text);
+  padding-top: 2px;
+  margin-right: 10px;
+}
+
+aside .profile span{
+  color: white;
+  font-weight: 800;
 }

@@ -1,12 +1,13 @@
 main{
   height: calc(100vh - 70px);
   background-color: var(--main-background-color);
-}
-
-#song-library{
   color: white;
   overflow: scroll;
   margin-left: 250px;
   padding-top: 120px;
   padding-left: 30px;
+}
+
+#song-library{
+  
 }

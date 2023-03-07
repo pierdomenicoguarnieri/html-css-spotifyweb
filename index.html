@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/general-style.css">
     <link rel="stylesheet" href="assets/css/header-style.css">
@@ -24,13 +30,51 @@
       <button class="btn debug">Effettua l'upgrade</button>
     </header>
 
-    <aside>
-      <img src="assets/img/logo.svg" alt="Spotify Logo" title="Spotify Logo">
+    <aside class="d-flex">
+      <div class="top">
+
+        <img src="assets/img/logo.svg" alt="Spotify Logo" title="Spotify Logo">
+
+        <nav>
+          <ul>
+            <li><a href="#"><img src="assets/img/home.svg" alt="">link</a></li>
+            <li><a href="#"><img src="assets/img/search.svg" alt="">link</a></li>
+            <li><a href="#"><img src="assets/img/libreria.svg" alt="">link</a></li>
+          </ul>
+          
+        </nav>
+
+        <div class="playlists">
+          <h3>Playlist</h3>
+          <a href="#"><i class="fa-sharp fa-solid fa-square-plus"></i> Crea Playlist</a>
+        </div>
+
+        <nav>
+          <ul>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="bottom">
+        <a href="#"><img src="assets/img/download.svg" alt=""> Installa app</a>
+        <div class="horizontal-line"></div>
+        <div class="profile d-flex">
+          <img src="assets/img/profile.svg" alt="">
+          <span>John Doe</span>
+        </div>
+      </div>
     </aside>
 
     <main>
       <div id="song-library" class="h-100 d-flex">
-        
+
       </div>
     </main>
 
