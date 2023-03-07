@@ -6,8 +6,34 @@ main{
   margin-left: 250px;
   padding-top: 120px;
   padding-left: 30px;
+  padding-right: 30px;
 }
 
-#song-library{
-  
+#song-library .menu-songs{
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#song-library .menu-songs ul{
+  list-style: none;
+}
+
+#song-library .menu-songs ul li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+#song-library .menu-songs ul li a{
+  color: var(--main-grey-text);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+#song-library .recently-played .row{
+  justify-content: space-between;
+}
+
+#song-library .recently-played .row .col{
+  width: calc(100% / 6.5);
 }

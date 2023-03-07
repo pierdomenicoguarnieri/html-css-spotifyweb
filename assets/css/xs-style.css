@@ -19,8 +19,14 @@
     margin-bottom: 10px;
   }
 
+  aside .top nav ul li{
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
   aside .top nav li a img{
     width: 25px;
+    margin: 0;
   }
 
   aside .bottom{
