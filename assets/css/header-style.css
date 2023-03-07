@@ -1,0 +1,12 @@
+header{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: calc(100% - 250px);
+  background-color: var(--topmenu-background-color);
+  padding-right: 15px;
+  align-items: center;
+  justify-content: flex-end;
+}
