@@ -1,0 +1,35 @@
+#main-wrapper{
+  height: calc(100vh - 100px);
+  overflow: scroll;
+  background-color: var(--main-background-color);
+}
+
+#sidebar{
+  width: 300px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--sidebar-backgroud-color);
+}
+
+#main-content{
+  flex-direction: column;
+  width: calc(100vw - 300px);
+}
+
+.song-library{
+  color: white;
+}
+
+.top-menu{
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 100px;
+  background-color: var(--topmenu-background-color);
+}
+
+#bottom-bar{
+  height: 100px;
+  background-color: var(--bottom-menu-background-color);
+}
