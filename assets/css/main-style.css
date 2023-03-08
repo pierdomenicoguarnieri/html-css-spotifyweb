@@ -33,7 +33,7 @@ main{
   font-size: 0.8rem;
 }
 
-#song-library .row{
+#song-library .row, #song-library section{
   margin-top: 30px;
 }
 
@@ -48,15 +48,27 @@ main{
   width: 100%;
 }
 
-#song-library .row .col > h3{
+#song-library .popular-artists .row .col > img{
+  border-radius: 50%;
+}
+
+#song-library .section-title{
+  padding-left: 10px;
+}
+
+#song-library .row h3{
   margin: 10px 0;
   text-align: center;
   font-weight: 800;
 }
 
-#song-library .row .col > span{
+#song-library span{
   font-size: 1rem;
   font-weight: 600;
   color: var(--main-grey-text);
   text-align: center;
+}
+
+#song-library .created-for h2, #song-library .popular-artists h2{
+  margin-bottom: 10px;
 }
