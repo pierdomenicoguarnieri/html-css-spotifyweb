@@ -13,7 +13,6 @@ main{
 
 #song-library .menu-songs{
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 #song-library .menu-songs ul{
@@ -24,6 +23,7 @@ main{
 #song-library .menu-songs ul li{
   display: inline-block;
   padding: 0px 10px;
+  padding-bottom: 30px;
 }
 
 #song-library .menu-songs ul li a{
@@ -33,7 +33,7 @@ main{
   font-size: 0.8rem;
 }
 
-#song-library .row, #song-library section{
+#song-library .row, #song-library section:not(:first-of-type){
   margin-top: 30px;
 }
 

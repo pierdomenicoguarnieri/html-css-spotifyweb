@@ -1,4 +1,36 @@
-footer{
+#player-bar{
   height: 70px;
   background-color: var(--bottom-menu-background-color);
+  justify-content: space-between;
+}
+
+#player-bar .left{
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+}
+
+#player-bar .left img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+#player-bar .left .song-infos h5{
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+#player-bar .left .song-infos span{
+  color: var(--sidebar-grey-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#player-bar .left .icons-container{
+  margin-left: 40px;
+}
+
+#player-bar .left .icons-container i{
+  padding: 0 5px;
+  color: var(--sidebar-grey-text);
 }
