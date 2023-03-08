@@ -1,9 +1,11 @@
-main{
+.main-wrapper{
   height: calc(100vh - 70px);
+}
+
+main{
   background-color: var(--main-background-color);
   color: white;
-  overflow: scroll;
-  margin-left: 250px;
+  overflow: auto;
   padding-top: 120px;
   padding-left: 30px;
   padding-right: 30px;
@@ -16,6 +18,7 @@ main{
 
 #song-library .menu-songs ul{
   list-style: none;
+  text-align: center;
 }
 
 #song-library .menu-songs ul li{
@@ -30,28 +33,30 @@ main{
   font-size: 0.8rem;
 }
 
-#song-library .recently-played .row{
-  justify-content: space-between;
-  margin-top: 20px;
+#song-library .row{
+  margin-top: 30px;
 }
 
-#song-library .recently-played .row .col{
-  width: calc(100% / 6.5);
+#song-library .row .col{
+  width: calc(100% / 6);
   flex-direction: column;
   align-items: center;
+  padding: 0 10px;
 }
 
-#song-library .recently-played .row .col > img{
+#song-library .row .col > img{
   width: 100%;
 }
 
-#song-library .recently-played .row .col > h3{
+#song-library .row .col > h3{
   margin: 10px 0;
   text-align: center;
+  font-weight: 800;
 }
 
-#song-library .recently-played .row .col > span{
+#song-library .row .col > span{
   font-size: 1rem;
   font-weight: 600;
   color: var(--main-grey-text);
+  text-align: center;
 }

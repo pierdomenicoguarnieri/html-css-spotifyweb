@@ -1,0 +1,10 @@
+@media screen and (max-width: 878px) {
+  #song-library .recently-played .row {
+    flex-wrap: wrap;
+  }
+
+  #song-library .recently-played .row .col{
+    width: calc(100% / 4);
+    margin-bottom: 20px;
+  }
+}

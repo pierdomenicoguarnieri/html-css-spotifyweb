@@ -1,14 +1,12 @@
 aside{
   flex-direction: column;
-  justify-content: space-between;
+  flex-shrink: 0;
+  height: 100%;
   width: 250px;
-  height: calc(100vh - 70px);
-  position: fixed;
-  top: 0;
-  left: 0;
   background-color: var(--sidebar-backgroud-color);
   padding-top: 30px;
   padding-left: 20px;
+  overflow: hidden;
 }
 
 aside a{
@@ -19,6 +17,12 @@ aside li{
   font-size: 0.9rem;
 }
 
+aside nav ul li{
+  padding: 10px 0;
+  list-style: none;
+  color: var(--sidebar-grey-text);
+}
+
 aside .top ul{
   margin-bottom: 30px;
 }
@@ -26,12 +30,6 @@ aside .top ul{
 aside .top > img{
   width: 70%;
   margin-bottom: 30px;
-}
-
-aside .top nav ul li{
-  padding: 10px 0;
-  list-style: none;
-  color: var(--sidebar-grey-text);
 }
 
 aside .top nav li a{
@@ -56,6 +54,12 @@ aside .top .playlists a{
   color: var(--sidebar-grey-text);
   font-size: 1rem;
   font-weight: 800;
+}
+
+aside nav.overflow{
+  overflow: auto;
+  height: 60%;
+  min-height: 20%;
 }
 
 aside .top .playlists a i{

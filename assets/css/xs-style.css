@@ -8,6 +8,7 @@
   }
 
   aside{
+    justify-content: space-between;
     width: 50px;
     padding-top: 10px;
     padding-left: 0;
@@ -51,11 +52,7 @@
     margin-right: 0;
   }
 
-  header{
+  .cta{
     width: calc(100% - 50px);
-  }
-
-  main{
-    margin-left: 50px;
   }
 }

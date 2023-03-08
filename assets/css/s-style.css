@@ -1,0 +1,5 @@
+@media screen and (max-width: 639px) {
+  #song-library .recently-played .row .col{
+    width: calc(100% / 2);
+  }
+}

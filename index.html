@@ -26,127 +26,178 @@
   </head>
 
   <body>
-    <header class="d-flex">
-      <button class="btn debug">Effettua l'upgrade</button>
-    </header>
+    <div class="main-wrapper d-flex">
 
-    <aside class="d-flex">
-      <div class="top">
-
-        <img class="d-none" src="assets/img/logo.svg" alt="Spotify Logo" title="Spotify Logo">
-        <img class="mobile" src="assets/img/logo-small.svg" alt="Spotify Logo" title="Spotify Logo">
-
-        <nav>
-          <ul>
-            <li>
-              <a href="#">
-                <img src="assets/img/home.svg" alt="">
-                <span class="d-none">link</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <img src="assets/img/search.svg" alt="">
-                <span class="d-none">link</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <img src="assets/img/libreria.svg" alt="">
-                <span class="d-none">link</span>
-              </a>
-            </li>
-          </ul>
-          
-        </nav>
-
-        <div class="playlists d-none">
-          <h3>Playlist</h3>
-          <a href="#"><i class="fa-sharp fa-solid fa-square-plus"></i> Crea Playlist</a>
-        </div>
-
-        <nav class="d-none">
-          <ul>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-          </ul>
-        </nav>
+      <div class="cta d-flex">
+        <button class="btn debug">Effettua l'upgrade</button>
       </div>
 
-      <div class="bottom d-flex">
-        <a href="#">
-          <img src="assets/img/download.svg" alt="">
-          <span class="d-none">Installa app</span>
-        </a>
+      <aside class="d-flex">
+        <div class="top">
 
-        <div class="horizontal-line d-none"></div>
+          <img class="d-none" src="assets/img/logo.svg" alt="Spotify Logo" title="Spotify Logo">
+          <img class="mobile" src="assets/img/logo-small.svg" alt="Spotify Logo" title="Spotify Logo">
 
-        <div class="profile d-flex">
-          <img src="assets/img/profile.svg" alt="">
-          <span class="d-none">John Doe</span>
-        </div>
-      </div>
-    </aside>
-
-    <main>
-      <div id="song-library">
-        <div class="menu-songs d-flex">
           <nav>
             <ul>
-              <li><a href="#">In evidenza</a></li>
-              <li><a href="#">Podcast</a></li>
-              <li><a href="#">Classifiche</a></li>
-              <li><a href="#">Generi e mood</a></li>
-              <li><a href="#">Nuove uscite</a></li>
-              <li><a href="#">Scopri</a></li>
+              <li>
+                <a href="#">
+                  <img src="assets/img/home.svg" alt="">
+                  <span class="d-none">link</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img src="assets/img/search.svg" alt="">
+                  <span class="d-none">link</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img src="assets/img/libreria.svg" alt="">
+                  <span class="d-none">link</span>
+                </a>
+              </li>
             </ul>
+            
           </nav>
-        </div>
-        
-        <div class="recently-played">
-          <h2>Recently played</h2>
-          <div class="row d-flex">
-            <div class="col d-flex">
-              <img src="assets/img/metal_lifting.jpg" alt="">
-              <h3>Heavy Metal</h3>
-              <span>Subtitle</span>
-            </div>
 
-            <div class="col d-flex">
-              <img src="assets/img/stranger.jpeg" alt="">
-              <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-              <span>Kyle Dixon & Michael Stein</span>
-            </div>
-
-            <div class="col d-flex">
-              <img src="assets/img/aquietplace.jpeg" alt="">
-              <h3>A quiet place</h3>
-              <span>Subtitle</span>
-            </div>
-
-            <div class="col d-flex debug">
-
-            </div>
-
-            <div class="col d-flex debug">
-
-            </div>
-
-            <div class="col d-flex debug">
-
-            </div>
+          <div class="playlists d-none">
+            <h3>Playlist</h3>
+            <a href="#"><i class="fa-sharp fa-solid fa-square-plus"></i> Crea Playlist</a>
           </div>
         </div>
-        
-      </div>
-    </main>
+
+        <nav class="overflow d-none">
+          <ul>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+          </ul>
+        </nav>
+
+        <div class="bottom d-flex">
+          <a href="#">
+            <img src="assets/img/download.svg" alt="">
+            <span class="d-none">Installa app</span>
+          </a>
+
+          <div class="horizontal-line d-none"></div>
+
+          <div class="profile d-flex">
+            <img src="assets/img/profile.svg" alt="">
+            <span class="d-none">John Doe</span>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div id="song-library">
+          <div class="menu-songs d-flex">
+            <nav>
+              <ul>
+                <li><a href="#">In evidenza</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Classifiche</a></li>
+                <li><a href="#">Generi e mood</a></li>
+                <li><a href="#">Nuove uscite</a></li>
+                <li><a href="#">Scopri</a></li>
+              </ul>
+            </nav>
+          </div>
+          
+          <div class="recently-played">
+            <h2>Recently played</h2>
+            <div class="row d-flex">
+              <div class="col d-flex">
+                <img src="assets/img/metal_lifting.jpg" alt="">
+                <h3>Heavy Metal</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/stranger.jpeg" alt="">
+                <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                <span>Kyle Dixon & Michael Stein</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/aquietplace.jpeg" alt="">
+                <h3>A quiet place</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/split.jpeg" alt="">
+                <h3>Split</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/cure.jpeg" alt="">
+                <h3>A cure for wellness</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/sinister.jpeg" alt="">
+                <h3>Sinister</h3>
+                <span>Subtitle</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="recently-played">
+            <h2>Recently played</h2>
+            <div class="row d-flex">
+              <div class="col d-flex">
+                <img src="assets/img/metal_lifting.jpg" alt="">
+                <h3>Heavy Metal</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/stranger.jpeg" alt="">
+                <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                <span>Kyle Dixon & Michael Stein</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/aquietplace.jpeg" alt="">
+                <h3>A quiet place</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/split.jpeg" alt="">
+                <h3>Split</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/cure.jpeg" alt="">
+                <h3>A cure for wellness</h3>
+                <span>Subtitle</span>
+              </div>
+
+              <div class="col d-flex">
+                <img src="assets/img/sinister.jpeg" alt="">
+                <h3>Sinister</h3>
+                <span>Subtitle</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+    
 
     <footer>
 
