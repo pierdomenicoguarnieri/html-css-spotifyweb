@@ -1,8 +1,8 @@
-#player-bar .center .song-timebar .bar:hover .time-listened{
+#player-bar .horizontal-bar:hover .percent-value{
   background-color: var(--active-color);
 }
 
-#player-bar .center .song-timebar .bar:hover .time-listened::after{
+#player-bar .horizontal-bar:hover .percent-value::after{
   font-family: 'FontAwesome';
   content: "\f111";
   color: white;

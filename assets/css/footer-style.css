@@ -69,17 +69,17 @@
   margin-top: 2px;
 }
 
-#player-bar .center .song-timebar .bar{
+#player-bar .horizontal-bar{
   position: relative;
   width: 100%;
   height: 5px;
   border-radius: 5px;
   background-color: var(--sidebar-grey-text);
-  margin: 0 10px;
+  margin: 0 20px;
   cursor: pointer;
 }
 
-#player-bar .center .song-timebar .bar .time-listened{
+#player-bar .horizontal-bar .percent-value{
   position: absolute;
   top: 0;
   left: 0;
@@ -87,4 +87,21 @@
   height: 100%;
   border-radius: 5px;
   background-color: white;
+}
+
+#player-bar .right .horizontal-bar{
+  margin-left: 0;
+}
+
+#player-bar .right{
+  width: 11%;
+  min-width:200px;
+  align-items: center;
+}
+
+#player-bar .right i{
+  color: white;
+  font-size: 0.8rem;
+  padding: 0 10px;
+  cursor: pointer;
 }
