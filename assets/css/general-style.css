@@ -46,7 +46,6 @@ a{
 }
 
 .btn{
-  height: 40px;
   padding: 10px 30px;
   border-radius: 20px;
   border: 2px solid white;
@@ -55,4 +54,5 @@ a{
   font-weight: 800;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+  transition: all .2s;
 }

@@ -1,12 +1,23 @@
-main .active::after{
-  display: block;
-  content: "";
-  width: 30px;
-  height: 3px;
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  background-color: var(--active-color);
+.cta .btn:hover{
+  padding: 15px 35px;
+  font-size: 0.95rem;
+  border-radius: 30px;
+}
+
+aside .top nav li a:hover{
+  color: white;
+}
+
+aside .playlists a:hover{
+  color: white;
+}
+
+aside .overflow li a:hover{
+  color: white;
+}
+
+aside .bottom  a:hover{
+  color: white;
 }
 
 aside .active::after{
@@ -18,6 +29,22 @@ aside .active::after{
   bottom: -10px;
   left: -57px;
   background-color: var(--active-color);
+}
+
+
+main .active::after{
+  display: block;
+  content: "";
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: var(--active-color);
+}
+
+#song-library .menu-songs a:hover{
+  color: white;
 }
 
 #song-library .row .col .img-container:hover .overlay-img{

@@ -49,10 +49,13 @@
 
 #player-bar .center .song-control ul li{
   list-style: none;
-  color: white;
   font-size: 1.1rem;
   padding: 0 10px;
+}
+
+#player-bar .center .song-control ul li i{
   cursor: pointer;
+  color: white;
 }
 
 #player-bar .center .song-control ul li.big{
@@ -87,6 +90,7 @@
   height: 100%;
   border-radius: 5px;
   background-color: white;
+
 }
 
 #player-bar .right .horizontal-bar{

@@ -69,6 +69,10 @@ aside .top .playlists a i{
   vertical-align: middle;
 }
 
+aside .overflow a{
+  color: var(--sidebar-grey-text);
+}
+
 aside .bottom{
   flex-direction: column;
 }
