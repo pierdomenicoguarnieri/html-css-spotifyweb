@@ -67,6 +67,7 @@ main{
 
 #song-library .row .col .img-container > img{
   width: 100%;
+  display: block;
 }
 
 #song-library .popular-artists .row .col .img-container > img{

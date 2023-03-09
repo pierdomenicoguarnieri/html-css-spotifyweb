@@ -51,6 +51,7 @@ main .active::after{
 
 #song-library .menu-songs a:hover{
   color: white;
+  text-shadow: 0 0 5px white;
 }
 
 #song-library .row .col .img-container:hover .overlay-img{
