@@ -1,3 +1,25 @@
+main .active::after{
+  display: block;
+  content: "";
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: var(--active-color);
+}
+
+aside .active::after{
+  display: block;
+  content: "";
+  height: 35px;
+  width: 3px;
+  position: absolute;
+  bottom: -10px;
+  left: -57px;
+  background-color: var(--active-color);
+}
+
 #player-bar .horizontal-bar:hover .percent-value{
   background-color: var(--active-color);
 }
