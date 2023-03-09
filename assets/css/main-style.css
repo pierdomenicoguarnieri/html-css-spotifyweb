@@ -42,6 +42,11 @@ main{
   flex-direction: column;
   align-items: center;
   padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+#song-library .row{
+  flex-wrap: wrap;
 }
 
 #song-library .row .col .img-container{
@@ -67,6 +72,8 @@ main{
 
 #song-library .row .col .img-container > img{
   width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
   display: block;
 }
 
