@@ -10,6 +10,7 @@
   --topmenu-background-color: rgba(0, 0, 0, 0.35);
 }
 
+/* START General */
 *{
   margin: 0;
   padding: 0;
@@ -56,3 +57,4 @@ a{
   cursor: pointer;
   transition: all .2s;
 }
+/* END General */
