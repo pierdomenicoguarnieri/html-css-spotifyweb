@@ -1,0 +1,13 @@
+#player-bar .center .song-timebar .bar:hover .time-listened{
+  background-color: var(--active-color);
+}
+
+#player-bar .center .song-timebar .bar:hover .time-listened::after{
+  font-family: 'FontAwesome';
+  content: "\f111";
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: -6px;
+  right: -5px;
+}
