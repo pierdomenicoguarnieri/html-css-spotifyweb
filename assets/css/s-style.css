@@ -1,5 +1,3 @@
-@media screen and (max-width: 1000px) {
-  #song-library .row .col{
-    width: calc(100% / 2);
-  }
+#song-library .row .col{
+  width: calc(100% / 2);
 }

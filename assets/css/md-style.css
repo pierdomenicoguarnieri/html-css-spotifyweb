@@ -1,10 +1,8 @@
-@media screen and (max-width: 1300px) {
-  #song-library .row {
-    flex-wrap: wrap;
-  }
+#song-library .row {
+  flex-wrap: wrap;
+}
 
-  #song-library .row .col{
-    width: calc(100% / 4);
-    margin-bottom: 20px;
-  }
+#song-library .row .col{
+width: calc(100% / 4);
+margin-bottom: 20px;
 }
