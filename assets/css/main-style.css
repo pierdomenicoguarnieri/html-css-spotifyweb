@@ -44,11 +44,36 @@ main{
   padding: 0 10px;
 }
 
-#song-library .row .col > img{
+#song-library .row .col .img-container{
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#song-library .row .col .img-container .overlay-img{
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  transition: all .2s;
+}
+
+#song-library .row .col .img-container > img{
   width: 100%;
 }
 
-#song-library .popular-artists .row .col > img{
+#song-library .popular-artists .row .col .img-container > img{
+  border-radius: 50%;
+}
+
+#song-library .popular-artists .row .col .img-container .overlay-img{
   border-radius: 50%;
 }
 

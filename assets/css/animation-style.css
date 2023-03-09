@@ -20,6 +20,10 @@ aside .active::after{
   background-color: var(--active-color);
 }
 
+#song-library .row .col .img-container:hover .overlay-img{
+  opacity: 100%;
+}
+
 #player-bar .horizontal-bar:hover .percent-value{
   background-color: var(--active-color);
 }
