@@ -2,22 +2,28 @@
   padding: 15px 35px;
   font-size: 0.95rem;
   border-radius: 30px;
+  text-shadow: 0 0 5px white;
+  box-shadow: 0 0 5px white;
 }
 
 aside .top nav li a:hover{
   color: white;
+  text-shadow: 0 0 5px white;
 }
 
 aside .playlists a:hover{
   color: white;
+  text-shadow: 0 0 5px white;
 }
 
 aside .overflow li a:hover{
   color: white;
+  text-shadow: 0 0 5px white;
 }
 
 aside .bottom  a:hover{
   color: white;
+  text-shadow: 0 0 5px white;
 }
 
 aside .active::after{
@@ -51,6 +57,20 @@ main .active::after{
   opacity: 100%;
 }
 
+#player-bar .left .icons-container i:hover{
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+
+#player-bar .left .icons-container i:first-child:hover{
+  color: red;
+  text-shadow: 0 0 5px red;
+}
+
+#player-bar .center i:hover{
+  text-shadow: 0 0 5px white;
+}
+
 #player-bar .horizontal-bar:hover .percent-value{
   background-color: var(--active-color);
 }
@@ -63,4 +83,8 @@ main .active::after{
   position: absolute;
   top: -6px;
   right: -5px;
+}
+
+#player-bar .right i:hover{
+  text-shadow: 0 0 5px white;
 }
